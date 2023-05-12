@@ -1,0 +1,18 @@
+h1{
+    margin: auto;
+    text-align: center;}
+
+
+section{
+ margin: auto;
+ text-align: center;
+ padding: 30px;
+ background-color: rgb(245, 10, 10);
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 5px 5px 10px;}
+
+ p{
+font-size: 30px;
+
+ }
