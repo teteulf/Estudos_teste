@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,19 +17,9 @@
 
     <section>
       <div id="divi"><strong>Insira um ano:</strong></div>
-      <div id="parag">
-        <div id="numeração_ano">1900</div>
-
-        <input
-          type="range"
-          oninput="ano_alterar()"
-          name="ch1"
-          value="1900"
-          id="ano"
-          min="1900"
-          max="2023"
-        />
-      </div>
+      <p id="parag">
+        <input type="number" name="ch1" id="ano" min="0" max="2024" />
+      </p>
       <br />
       <div id="secsu">
         <strong>Sexo:</strong>
@@ -40,6 +30,7 @@
       </div>
       <br />
       <br />
+      <input type="button" value="Verificar" id="verif" onclick="result()" />
       <p id="pari" style="font-size: 20px"></p>
       <img src="" />
     </section>
