@@ -1,34 +1,38 @@
-body{
-    background-image: url(form.png);
-    text-align: center;}
-section{
-    background-color: tomato;
-    width: 300px;
-    margin:auto;
-    border-radius: 20px; ;
-    box-shadow: 5px 5px 10px rgb(191, 2, 2);
-    padding: 50px;}
+body {
+  background-image: url(form.png);
+  text-align: center;
+}
 
-#ano{
-  width: 200px}
+section {
+  background-color: tomato;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  ;
+  box-shadow: 1px 0px 20px 4px rgb(191, 2, 2);
+  padding: 50px;
+}
 
-  div{
-font: normal 20pt Arial;}
+#ano {
+  width: 200px
+}
 
-#verif{
-  font-size: 20px;}
+div {
+  font: normal 20pt Arial;
+}
 
-#secsu{
+#verif {
+  font-size: 20px;
+}
 
-font-size: 20px;}
+#secsu {
+
+  font-size: 20px;
+}
 
 img {
- font-size: 200px;
- width: 200px ;
+  font-size: 200px;
+  width: 200px;
 
 
 }
-
-
-
-
