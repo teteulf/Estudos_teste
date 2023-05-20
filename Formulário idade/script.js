@@ -17,54 +17,54 @@ function result() {
     p.innerHTML = `Esta pessoa é homem e tem ${numb} anos`;
 
     if (numb >= 0 && numb < 5) {
-      img.src = "bebe homem.PNG";
+      img.src = "imagens/bebe homem.PNG";
     }
 
     if (numb >= 5 && numb < 13) {
-      img.src = "criança homem.PNG";
+      img.src = "imagens/criança homem.PNG";
     }
 
     if (numb >= 13 && numb < 18) {
-      img.src = "adolescente homem.PNG";
+      img.src = "imagens/adolescente homem.PNG";
     }
 
     if (numb >= 18 && numb < 55) {
-      img.src = "adulto homem.PNG";
+      img.src = "imagens/adulto homem.PNG";
     }
 
     if (numb >= 55 && numb < 100) {
-      img.src = "idoso homem.PNG";
+      img.src = "imagens/idoso homem.PNG";
     }
 
     if (numb >= 100) {
       p.innerHTML = "Ja morreu certeza";
-      img.src = "caveira.PNG";
+      img.src = "imagens/caveira.PNG";
     }
   } else if (sexu.checked) {
     p.innerHTML = `Esta pessoa é mulher e tem ${numb} anos`;
 
     if (numb >= 0 && numb < 5) {
-      img.src = "bebe homem.PNG";
+      img.src = "imagens/bebe homem.PNG";
     }
 
     if (numb >= 5 && numb < 13) {
-      img.src = "criança mulher.PNG";
+      img.src = "imagens/criança mulher.PNG";
     }
 
     if (numb >= 13 && numb < 18) {
-      img.src = "adolescente mulher.PNG";
+      img.src = "imagens/adolescente mulher.PNG";
     }
 
     if (numb >= 18 && numb < 55) {
-      img.src = "adulto mulher.PNG";
+      img.src = "imagens/adulto mulher.PNG";
     }
 
     if (numb >= 55 && numb < 100) {
-      img.src = "idoso mulher.PNG";
+      img.src = "imagens/idoso mulher.PNG";
     }
 
     if (numb >= 100) {
-      img.src = "caveira.PNG";
+      img.src = "imagens/caveira.PNG";
       p.innerHTML = "Ja morreu certeza";
     }
   }
