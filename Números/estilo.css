@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+section {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: darkcyan;
+    margin: center;
+    width: 687px;
+    height: 330px;
+}
+
+#inputis {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 519px;
+}
+
+#div1 {
+    position: absolute;
+
+    top: 38px;
+    left: 29px;
+    font-size: 20px;
+}
+
+#parag {
+    position: relative;
+
+    top: 247px;
+
+
+
+}
+
+input {
+    position: absolute;
+    left: 223px;
+    top: 30px;
+}
+
+#verif {
+    position: absolute;
+    left: 409px;
+    top: 30px;
+    border-radius: 10px;
+}
+
+
+select {
+    position: absolute;
+    top: 79px;
+    left: 203px;
+    width: 285px;
+    height: 150px;
+}
+
+#finalizar {
+    position: relative;
+    left: 605px;
+    top: 271px;
+    width: 146px;
+
+
+
+}

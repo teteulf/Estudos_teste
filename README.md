@@ -1,2 +1,0 @@
-- Hamburguer!
-- Tchau!
