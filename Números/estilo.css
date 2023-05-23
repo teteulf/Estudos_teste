@@ -3,18 +3,26 @@ h1 {
     font-size: 25px;
     text-decoration: underline;
     font-family: cursive;
+    color: rgba(12, 235, 53, 0.919);
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
+
+body {
+    background-image: url(quadro\ negro.jpg);
 }
 
 section {
     position: absolute;
-    top: 40%;
+    top: 360px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: darkcyan;
-    margin: center;
+    background-color: rgb(1, 48, 46);
     width: 687px;
-    height: 330px;
+    height: 550px;
+    border-radius: 20px;
+    outline: 5px solid black;
+    box-shadow: 1px 3px 8px 12px rgb(255, 255, 255);
 }
 
 #inputis {
@@ -26,49 +34,76 @@ section {
 
 #div1 {
     position: absolute;
-
-    top: 38px;
-    left: 29px;
+    top: 35px;
+    left: 10px;
     font-size: 20px;
+    color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
 
 #parag {
     position: relative;
-
-    top: 247px;
-
-
+    left: 15%;
+    top: 270px;
+    background-color: white;
+    height: 220px;
+    line-height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    outline: 5px solid black;
+    background-image: url(imagem\ caderno.png);
+    background-size: cover;
 
 }
 
 input {
     position: absolute;
-    left: 223px;
+    left: 264px;
     top: 30px;
+    outline: 2px solid black;
+
 }
 
 #verif {
+    outline: 2px solid black;
     position: absolute;
-    left: 409px;
+    left: 450px;
     top: 30px;
-    border-radius: 10px;
+    width: 103px;
+    border-radius: 3px;
+    background-color: #049d2d;
+    color: white;
 }
 
 
 select {
     position: absolute;
-    top: 79px;
+    top: 90px;
     left: 203px;
     width: 285px;
     height: 150px;
+    outline: 3px solid black;
+    background-image: url(imagem\ caderno.png);
+
+
+
 }
 
 #finalizar {
     position: relative;
-    left: 605px;
-    top: 271px;
+    left: 620px;
+    top: 280px;
     width: 146px;
+    background-color: #049d2d;
+    outline: 3px solid black;
+    color: white;
+    border-radius: 5px;
+}
 
-
+#imagem {
+    background-image: url(quadro\ negro.jpg);
+    max-width: 1000px;
+    height: 300px;
+    background-size: cover;
 
 }
