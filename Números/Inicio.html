@@ -5,26 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>registro de número</title>
-    <h1>Seletor de números</h1>
+    <link rel="stylesheet" href="estilo.css" />
   </head>
   <body>
+    <h1>Seletor de números</h1>
     <section id="sec">
-      <div id="div1"><strong>Insira um número de 0 a 100 ➜ </strong></div>
-      <div id="inputis">
+      <div id="div1">
+        <strong>Insira um número de 0 a 100 ➜ </strong>
         <input type="text" class="text" id="texto" />
         <button id="verif" onclick="clicou()">Inserir número</button>
-        <select size="10px" id="seletor"></select>
       </div>
-
-      <br />
+      <select size="10px" id="seletor"></select>
+      <button id="finalizar" onclick="finalizou()">Finalizar!</button>
       <div id="parag"></div>
     </section>
-    <footer>
-      <button id="finalizar" onclick="finalizou()">Finalizar!</button>
-    </footer>
-
-    <img src="quadro negro.jpg" id="imagem" />
     <script src="script.js"></script>
-    <link rel="stylesheet" href="estilo.css" />
   </body>
 </html>

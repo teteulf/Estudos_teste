@@ -1,109 +1,71 @@
+html {
+    background-image: url(quadro\ negro.jpg);
+}
+
 h1 {
     text-align: center;
     font-size: 25px;
     text-decoration: underline;
     font-family: cursive;
     color: rgba(12, 235, 53, 0.919);
-    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
-}
-
-body {
-    background-image: url(quadro\ negro.jpg);
+    text-shadow: -1px -1px 1px black,-1px -1px 1px black,-1px -1px 1px black,-1px -1px 1px black
 }
 
 section {
-    position: absolute;
-    top: 360px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    width: 70%;
+    margin: auto;
     background-color: rgb(1, 48, 46);
-    width: 687px;
-    height: 550px;
     border-radius: 20px;
     outline: 5px solid black;
     box-shadow: 1px 3px 8px 12px rgb(255, 255, 255);
 }
 
-#inputis {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 519px;
-}
-
 #div1 {
-    position: absolute;
-    top: 35px;
-    left: 10px;
     font-size: 20px;
     color: white;
     text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
 
 #parag {
-    position: relative;
-    left: 15%;
-    top: 270px;
     background-color: white;
-    height: 220px;
+    height: 240px;
+    text-align: center;
     line-height: 30px;
     width: 500px;
     border-radius: 10px;
     outline: 5px solid black;
     background-image: url(imagem\ caderno.png);
     background-size: cover;
-
 }
 
 input {
-    position: absolute;
-    left: 264px;
-    top: 30px;
     outline: 2px solid black;
-
 }
 
 #verif {
     outline: 2px solid black;
-    position: absolute;
-    left: 450px;
-    top: 30px;
     width: 103px;
     border-radius: 3px;
     background-color: #049d2d;
     color: white;
 }
 
-
 select {
-    position: absolute;
-    top: 90px;
-    left: 203px;
     width: 285px;
     height: 150px;
     outline: 3px solid black;
     background-image: url(imagem\ caderno.png);
-
-
-
 }
 
 #finalizar {
-    position: relative;
-    left: 620px;
-    top: 280px;
     width: 146px;
     background-color: #049d2d;
     outline: 3px solid black;
     color: white;
     border-radius: 5px;
-}
-
-#imagem {
-    background-image: url(quadro\ negro.jpg);
-    max-width: 1000px;
-    height: 300px;
-    background-size: cover;
-
 }
