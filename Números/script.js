@@ -1,10 +1,7 @@
 const inp = document.querySelector("#texto");
-const but = document.querySelector("button");
 const selet = document.querySelector("select");
 const div = document.querySelector("#parag");
-const valor = Number(inp.value);
 const valores = [];
-const sect = document.querySelector("#sec");
 
 function isNumero(n) {
   if (Number(n) >= 1 && Number(n) <= 100) {
@@ -39,7 +36,6 @@ function finalizou() {
   if (valores.length == 0) {
     alert("[ERR0R!] Nenhum número adicionado");
   } else {
-    let tot = valores.length;
     let maior = valores[0];
     let menor = valores[0];
     let soma = 0;
@@ -50,11 +46,11 @@ function finalizou() {
       if (valores[pos] > maior) maior = valores[pos];
       if (valores[pos] < menor) menor = valores[pos];
     }
-    media = soma / tot;
+    media = soma / valores.length;
 
     div.innerHTML = "";
 
-    div.innerHTML += `<p>Um total de ${tot} números cadastrados</p>`;
+    div.innerHTML += `<p>Um total de ${valores.length} números cadastrados</p>`;
     div.innerHTML += `<p> o maior valor informado foi ${maior}`;
     div.innerHTML += `<p> o menor valor informado foi ${menor}`;
     div.innerHTML += `<p> Somando todos os valores, temos ${soma}`;
