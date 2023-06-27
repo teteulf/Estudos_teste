@@ -22,20 +22,15 @@ section {
 select {
 
     position: relative;
-    top: 100px;
-
-
-
-
+    top: 10px;
 }
-
-
 
 #imagem {
     position: relative;
     left: 30px;
-    top: 50px;
-    border: 2px solid black
+    top: 85px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 footer {
@@ -43,6 +38,7 @@ footer {
     margin: 0;
     padding: 0;
     position: relative;
+    top: -448px;
     left: 680px;
     bottom: 404px;
     color: #010000;
@@ -53,32 +49,8 @@ footer {
     width: 292px;
     height: 360px;
     border-radius: 20px;
-    border: 2px solid #ff0000;
-    outline: #000;
-}
-
-#separador_img {
-    position: relative;
-    left: 330px;
-    right: 1px;
-    bottom: 1px;
-    top: -1080px;
-    width: 661px;
-    z-index: 2;
-
-}
-
-
-
-#quadrado_img {
-    position: relative;
-    left: 170px;
-    top: -820px;
-    width: 680px;
-    height: 465px;
-
-
-
-
-
+    border: 2px solid #140000;
+    outline: #000000;
+    background-image: url(imagens/imagem\ caderno.png);
+    background-size: cover;
 }
