@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 23);
+}
+
+.titulo {
+    padding: 3% 0% 0% 35%;
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(166, 166, 167);
+}
+
+.instrucoes {
+    text-align: center;
+    padding: 2% 0% 0% 3%;
+    width: 36%;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 33px;
+    color: rgb(166, 166, 167);
+    background-color: rgb(202, 27, 27);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 2px rgb(217, 5, 5)
+}
+
+
+.instrucoesTexto {
+    background-color: rgb(202, 27, 27);
+    width: 91%;
+    padding-bottom: 6%;
+
+
+}
+
+.botao {
+    font-size: 30px;
+    padding: 0% 0% 0% 0%;
+    width: 180px;
+    height: 70px;
+    margin-top: 2%;
+    margin-left: 44%;
+}
+
+.parag {
+    display: flex;
+    gap: 500px;
+    font-size: 30px;
+    padding: 10% 0% 0% 35%;
+    color: white;
+}

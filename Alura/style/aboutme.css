@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand&family=Staatliches&display=swap');
+
+
+
+.conteudo_sobremim {
+    display: flex;
+    flex-direction: column;
+    padding: 9%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: -3%;
+}
+
+.Gracie {
+    /* display: flex;
+    align-items: center; */
+    text-decoration: none;
+    color: red;
+
+}
+
+.Gracie:hover {
+    text-decoration: underline;
+}
+
+.Winner {
+
+    text-decoration: none;
+    color: blue;
+}
+
+.Winner:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    margin-left: 45%;
+    color: rgb(28, 4, 246);
+    font-family: 'Staatliches', cursive;
+    text-decoration: underline;
+
+
+}
+
+/* .conteudo_sobremim_texto {
+    text-align: center;
+} */
+
+.conteudo_sobremim_texto {
+    display: flex;
+    gap: 80px;
+}
+
+
+
+.conteudo_sobremim_imagem {
+    padding: 3%;
+    height: 600px;
+    margin-right: -5%;
+
+
+
+}
